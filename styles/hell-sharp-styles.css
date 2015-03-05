@@ -1,0 +1,34 @@
+@import "reseter.css";
+@import "index-styles.css";
+
+article {
+    width: 80%;
+    margin-left: 10%;
+}
+
+p {
+    line-height: 150%;
+    word-break: break-all;
+}
+
+h1 {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

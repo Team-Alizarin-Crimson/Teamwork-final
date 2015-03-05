@@ -1,0 +1,39 @@
+@import "reseter.css";
+@import "index-styles.css";
+
+article {
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+#hell{
+    height: 500px;
+}
+article header{
+    text-align: center;
+}
+@media all and (max-width: 780px ){
+    #hell{
+        height: 300px;
+    }
+}
+@media all and (max-width:600px ){
+    #hell{
+        height: 200px;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

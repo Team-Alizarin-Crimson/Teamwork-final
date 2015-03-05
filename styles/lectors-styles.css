@@ -1,0 +1,53 @@
+@import "reseter.css";
+@import "index-styles.css";
+
+article {
+    width: 80%;
+    margin-left: 10%;
+}
+
+p {
+    line-height: 150%;
+    font-style: italic;
+}
+main article header{
+    text-align: center;
+}
+h1 {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+
+}
+#nakov img{
+    width: 190px;
+    height: 200px;
+}
+#bankin img{
+    width: 190px;
+    height: 200px;
+}
+#bogomil img{
+    width: 190px;
+    height: 200px;
+}
+#nakov, #bankin, #bogomil{
+
+    display: inline-block;
+}
+#images-lectors{
+    display: flex;
+    justify-content: space-between;
+}
+
+label{
+    display: block;
+}
+@media all and (max-width:950px ){
+    #images-lectors{
+        flex-flow: column wrap;
+    }
+    #nakov, #bankin, #bogomil{
+        padding-bottom: 20px;
+    }
+
+}
